@@ -1,0 +1,301 @@
+/* 
+CV Stylesheet - Clean Professional Styling
+No !important needed - full control over styling
+*/
+
+/* === BASE STYLES === */
+html {
+    color: #1a1a1a;
+    background-color: #fdfdfd;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 36em;
+    padding: 50px;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+}
+
+/* === HEADINGS === */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.4em;
+    color: #1a1a1a;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+h5, h6 {
+    font-size: 1em;
+    font-style: italic;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h6 {
+    font-weight: normal;
+}
+
+/* === TITLE STYLING === */
+.title, h1.title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 2em;
+    margin-top: 0;
+}
+
+/* === PARAGRAPHS === */
+p {
+    margin: 1em 0;
+    text-align: left;
+}
+
+/* === LINKS === */
+a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1a1a1a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* === IMAGES === */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    height: auto;
+    max-width: 100%;
+}
+
+/* === LISTS === */
+ol, ul {
+    padding-left: 1.7em;
+    margin: 1em 0;
+}
+
+li {
+    margin-bottom: 0.3em;
+}
+
+li > ol, li > ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* === BLOCKQUOTES === */
+blockquote {
+    margin: 1em 0 1em 1.7em;
+    padding-left: 1em;
+    border-left: 2px solid #e6e6e6;
+    color: #606060;
+}
+
+/* === CODE === */
+code {
+    font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+    font-size: 85%;
+    margin: 0;
+    hyphens: manual;
+    white-space: pre-wrap;
+    background-color: #f6f6f6;
+    padding: 0.1em 0.2em;
+    border-radius: 2px;
+}
+
+pre {
+    margin: 1em 0;
+    overflow: auto;
+    background-color: #f6f6f6;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+pre code {
+    padding: 0;
+    background-color: transparent;
+    overflow: visible;
+    overflow-wrap: normal;
+}
+
+/* === HORIZONTAL RULES === */
+hr {
+    border: none;
+    border-top: 1px solid #1a1a1a;
+    height: 1px;
+    margin: 2em 0;
+}
+
+/* === TABLES === */
+table {
+    margin: 1em 0;
+    border-collapse: collapse;
+    width: 100%;
+    font-variant-numeric: lining-nums tabular-nums;
+}
+
+table caption {
+    margin-bottom: 0.75em;
+    font-weight: bold;
+}
+
+thead {
+    border-bottom: 2px solid #1a1a1a;
+}
+
+tbody {
+    margin-top: 0.5em;
+}
+
+th {
+    border-bottom: 1px solid #1a1a1a;
+    padding: 0.5em;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    padding: 0.5em;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* === UTILITY CLASSES === */
+.smallcaps {
+    font-variant: small-caps;
+}
+
+.columns {
+    display: flex; 
+    gap: min(4vw, 1.5em);
+}
+
+.column {
+    flex: auto; 
+    overflow-x: auto;
+}
+
+.hanging-indent {
+    margin-left: 1.5em; 
+    text-indent: -1.5em;
+}
+
+.task-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.task-list li input[type="checkbox"] {
+    font-size: inherit;
+    width: 0.8em;
+    margin: 0 0.8em 0.2em -1.6em;
+    vertical-align: middle;
+}
+
+.math {
+    display: block; 
+    text-align: center; 
+    margin: 0.5rem auto;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9em;
+        padding: 12px;
+    }
+    
+    h1, .title {
+        font-size: 1.8em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+}
+
+/* === PRINT STYLES === */
+@media print {
+    html {
+        background-color: white;
+    }
+    
+    body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+        padding: 0.5in;
+    }
+    
+    h1, .title {
+        font-size: 18pt;
+    }
+    
+    h2 {
+        font-size: 14pt;
+    }
+    
+    h3 {
+        font-size: 12pt;
+    }
+    
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    
+    h1, h2, h3, h4 {
+        page-break-after: avoid;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    /* Show URLs for external links */
+    a[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 10pt;
+        color: #666;
+    }
+    
+    /* Hide URLs for email and internal links */
+    a[href^="mailto"]::after,
+    a[href^="#"]::after {
+        content: "";
+    }
+}
