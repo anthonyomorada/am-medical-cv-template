@@ -1,6 +1,6 @@
 # Academic Medicine Portfolio Template
 
-![Use This Template](https://img.shields.io/badge/Use_This_Template-2ea44f?style=for-the-badge){width="113"} [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub Pages](https://img.shields.io/badge/Powered_by-GitHub_Pages-blue?style=flat-square&logo=github)](https://pages.github.com/)
+![Use This Template](https://img.shields.io/badge/Use_This_Template-2ea44f?style=for-the-badge) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub Pages](https://img.shields.io/badge/Powered_by-GitHub_Pages-blue?style=flat-square&logo=github)](https://pages.github.com/)
 
 **Create your professional academic medicine portfolio website in a few minutes. Zero coding required.**
 
