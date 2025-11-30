@@ -276,4 +276,4 @@ If this template helped you:
 
 -   💬 [**Share feedback**](https://github.com/anthonyomorada/am-medical-cv-template/discussions) on how we can improve
 
--   **Donate**: ![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg){width="149"}
+-   **Donate**: [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X61PF7OT)
