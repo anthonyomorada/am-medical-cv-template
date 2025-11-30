@@ -180,6 +180,36 @@ hr {
 .award-item strong {
   color: var(--primary-color);
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  
+  .hero-section {
+    padding: 16px 0 12px;
+    margin-bottom: 12px;
+  }
+  
+  .hero-section h1 {
+    font-size: 1.8em;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 18px 0;
+  }
+  
+  .nav-cards {
+    grid-template-columns: 1fr;
+    margin: 18px 0;
+  }
+  
+  .featured-section {
+    margin: 20px 0;
+  }
+}
 </style>
 
 <div class="hero-section">
