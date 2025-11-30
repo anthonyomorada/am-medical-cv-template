@@ -1,6 +1,6 @@
 # Academic Medicine Portfolio Template
 
-[![Use This Template](https://img.shields.io/badge/Use_This_Template-2ea44f?style=for-the-badge)](https://github.com/anthonyomorada/am-medical-cv-template/generate) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub Pages](https://img.shields.io/badge/Powered_by-GitHub_Pages-blue?style=flat-square&logo=github)](https://pages.github.com/)
+![Use This Template](https://img.shields.io/badge/Use_This_Template-2ea44f?style=for-the-badge){width="113"} [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub Pages](https://img.shields.io/badge/Powered_by-GitHub_Pages-blue?style=flat-square&logo=github)](https://pages.github.com/)
 
 **Create your professional academic medicine portfolio website in a few minutes. Zero coding required.**
 
@@ -276,24 +276,4 @@ If this template helped you:
 
 -   💬 [**Share feedback**](https://github.com/anthonyomorada/am-medical-cv-template/discussions) on how we can improve
 
-------------------------------------------------------------------------
-
-**Ready to build your portfolio?** Click [**Use this template**](https://github.com/anthonyomorada/am-medical-cv-template/generate) to get started! 🚀
-
-```         
-
----
-
-## 2️⃣ **Repository Description** (GitHub Settings)
-```
-
-Professional CV website template for medical residents, fellows, and faculty. Deploy your academic portfolio in 5 minutes with GitHub Pages. No coding required - edit with Markdown only.
-
-```         
-
----
-
-## 3️⃣ **Repository Topics** (GitHub Settings → About)
-```
-
-medical-cv academic-medicine github-pages jekyll-template residency-application fellowship-application medical-portfolio academic-cv markdown-cv medical-education cv-template portfolio-template physician-cv medical-resident
+-   **Donate**: ![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg){width="149"}
