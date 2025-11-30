@@ -1,256 +1,315 @@
-# Medical CV Template - Free Professional Website
+# Academic Medicine Portfolio Template
 
 [![Use This Template](https://img.shields.io/badge/Use_This_Template-2ea44f?style=for-the-badge)](https://github.com/anthonyomorada/am-medical-cv-template/generate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/Powered_by-GitHub_Pages-blue?style=flat-square&logo=github)](https://pages.github.com/)
 
-**Create your professional CV website in 5 minutes. No coding required.**
+**Create your professional academic medicine portfolio website in 5 minutes. Zero coding required.**
 
-A ready-to-use template for medical professionals (residents, fellows, faculty) to showcase their CV, publications, and research online. Built with GitHub Pages for **free hosting** with automatic updates.
+A ready-to-use template for medical residents, fellows, and faculty to showcase their CV, publications, and research online. Built for **GitHub Pages** with free hosting and automatic updates.
 
-📺 **[Live Demo](https://anthonyomorada.github.io/anthony-morada-cv/)** | 📖 **[Full Documentation](#-setup-guide)**
+📺 **[Live Demo](https://anthonyomorada.github.io/anthony-morada-cv/)** | 📖 **[Quick Start Guide](#-quick-start)**
+
+![Template Preview](assets/screenshot-example.png)
 
 ---
 
 ## ✨ What You Get
 
-- 🌐 **Professional website** with your CV automatically published
-- 📱 **Mobile-optimized** design for program directors viewing on phones
-- 🆓 **Free hosting** via GitHub Pages (no server costs)
-- ⚡ **Instant updates** - edit and changes go live in ~1 minute
-- 📄 **Downloadable PDFs** - auto-generated from your content
-- 🔍 **Search engine friendly** - appears in Google searches
-- 📊 **Publication showcase** - display research with direct PDF links
+- 🌐 **Professional academic website** - Polished portfolio that updates instantly
+- 📱 **Mobile-optimized design** - Looks perfect when program directors view on phones
+- 📝 **Markdown editing only** - Edit like a Word doc, no coding needed
+- 🆓 **Free hosting forever** - GitHub Pages hosts your site at no cost
+- ⚡ **Live in 5 minutes** - From template to published site in one sitting
+- 📄 **Auto-generated PDFs** - Download links for Word and PDF versions
+- 🔍 **Google searchable** - Your name appears in search results with your site
 
 ---
 
 ## 🎯 Perfect For
 
-- ✅ Residency and fellowship applications
-- ✅ Academic job searches
-- ✅ Faculty promotion portfolios
-- ✅ Research collaboration networking
-- ✅ Professional branding
+✅ **Residency applications** - Professional portfolio for ERAS supplements
+✅ **Fellowship applications** - Showcase research and clinical experience  
+✅ **Academic job searches** - Faculty position applications
+✅ **Grant applications** - Professional online presence for NIH biosketches
+✅ **Networking** - Share your work at conferences and with collaborators
 
 ---
 
-## 🚀 5-Minute Setup
+## 🚀 Quick Start
 
-### Step 1: Create Your Repository (1 minute)
+### Step 1: Create Your Copy (1 minute)
 
-**Click the green "Use this template" button at the top of this page**, then:
+Click the green **"Use this template"** button at the top of this page.
 
-1. Name your repository: `[your-username]-cv` (e.g., `jsmith-cv`)
-2. Choose **Public** visibility
+1. **Repository name**: Choose `[your-name]-cv` (e.g., `jsmith-cv`)
+2. **Visibility**: Select **Public** (required for free GitHub Pages)
 3. Click **Create repository from template**
 
-### Step 2: Enable GitHub Pages (1 minute)
+✅ **Done!** You now have your own copy.
 
-1. In your new repository, go to **Settings** (top menu)
-2. Scroll to **Pages** section (left sidebar)
-3. Under "Source", select **Deploy from a branch**
-4. Choose **main** branch
-5. Click **Save**
+---
 
-✅ **Your site is now live!** Visit: `https://[your-username].github.io/[repository-name]/`
+### Step 2: Enable Your Website (1 minute)
+
+In your new repository:
+
+1. Click **⚙️ Settings** (top menu)
+2. Click **Pages** (left sidebar)
+3. Under "Source":
+   - Branch: Select **`main`**
+   - Folder: Keep as **`/ (root)`**
+4. Click **Save**
+
+Wait 1-2 minutes, then refresh. You'll see:
+> ✅ **Your site is live at `https://[your-username].github.io/[repo-name]/`**
+
+---
 
 ### Step 3: Add Your Information (3 minutes)
 
-1. Click on `cv.md` file in your repository
-2. Click the **pencil icon** (✏️) to edit
-3. Replace the placeholder text with your information
-4. Scroll down and click **Commit changes**
-5. Wait ~1 minute - your website updates automatically!
+**Edit your homepage:**
 
-Repeat for `index.md` (homepage).
+1. Click `index.md` in your repository
+2. Click the **✏️ pencil icon** (top right) to edit
+3. Replace placeholder text with your info:
+   - Your name, position, institution
+   - Contact information
+   - Research summary
+   - Stats and highlights
+4. Scroll down → **Commit changes** (green button)
+
+**Edit your full CV:**
+
+1. Click `cv.md` in your repository
+2. Click the **✏️ pencil icon** to edit
+3. Replace with your complete CV
+4. **Commit changes**
+
+⏱️ **Wait ~1 minute** → Your site updates automatically!
 
 ---
 
-## 📝 What to Edit
+## 📝 What to Edit (Markdown Files Only)
 
-### Essential Files (Start Here)
+You only need to edit **2 files** - both are plain text (Markdown):
 
-**`_config.yml`** - Site settings
+### 1. `index.md` - Your Homepage
+- Professional photo
+- Contact information  
+- Research highlights
+- Featured publications
+- Awards summary
+
+### 2. `cv.md` - Complete CV
+- Education
+- Research experience
+- Publications (all)
+- Presentations
+- Awards and honors
+- Professional activities
+
+### 3. `_config.yml` - Site Settings (Optional)
 ```yaml
 title: Your Name, MD
 email: your.email@institution.edu
-description: Brief professional description
-url: "https://yourusername.github.io"
-baseurl: "/repository-name"
-```
-
-**`cv.md`** - Your complete CV
-- Education
-- Research experience
-- Publications
-- Presentations
-- Awards and honors
-
-**`index.md`** - Homepage with highlights
-- Professional summary
-- Research impact stats
-- Featured publications
-- Contact information
-
-### Optional Customization
-
-**`assets/profile-photo.png`** - Your professional headshot (400x400px recommended)
-
-**`assets/style.css`** - Colors and styling (change `--primary-color` for main theme)
-
-**`_includes/footer.html`** - Custom footer text
-
----
-
-## 📁 File Structure Explained
-
-```
-your-cv-repository/
-├── index.md              # Homepage (edit this)
-├── cv.md                 # Full CV (edit this)
-├── _config.yml           # Site settings (edit this)
-├── assets/
-│   ├── profile-photo.png # Your photo (replace this)
-│   └── style.css         # Styling
-├── cv-downloads/         # PDF/Word versions
-├── publications/         # Upload your paper PDFs here
-└── presentations/        # Upload poster PDFs here
-```
-
----
-
-## 📄 Creating Downloadable PDFs
-
-### Option 1: Use Online Converter (Easiest)
-1. Copy content from your `cv.md`
-2. Use [Markdown to PDF](https://www.markdowntopdf.com/)
-3. Upload result to `cv-downloads/` folder
-
-### Option 2: Use Pandoc (Advanced)
-```bash
-# Install Pandoc first (see main documentation)
-pandoc cv.md -o cv-downloads/cv.pdf
+description: "General Surgery Resident | Clinical Outcomes Researcher"
 ```
 
 ---
 
 ## 🎨 Customization Guide
 
-### Change Your Theme Color
+### Add Your Professional Photo
 
-Edit `assets/style.css`:
+1. Go to `assets/` folder
+2. Click **Add file** → **Upload files**
+3. Upload your headshot as `profile-photo.png` (or `.jpg`)
+4. Recommended: 400×400px square, professional attire
+
+### Change Theme Color
+
+Edit `assets/style.css` (line 3):
 ```css
-:root {
-  --primary-color: #2c5aa0;  /* Change this color code */
-}
+--primary-color: #2c5aa0;  /* Change this hex code */
 ```
 
-**Popular medical theme colors:**
+**Popular academic colors:**
 - `#2c5aa0` - Professional Blue (default)
-- `#1a472a` - Forest Green
-- `#6a1b9a` - Royal Purple
-- `#c41e3a` - Crimson Red
+- `#1a472a` - Medical Green  
+- `#8b0000` - Academic Crimson
+- `#003366` - Navy Blue
 
-### Add a Publication
+### Add Publication PDFs
 
-1. Upload PDF to `publications/` folder
-2. Edit `cv.md` and add link:
+1. Upload PDFs to `publications/` folder
+2. In `cv.md`, add links:
 ```markdown
-[[PDF](./publications/your-paper.pdf)]
-```
-
-### Add a Presentation
-
-1. Upload PDF to `presentations/` folder
-2. Edit `cv.md` and add link:
-```markdown
-[🖼️ Poster PDF](./presentations/your-poster.pdf)
+[[PDF](./publications/2023-smith-outcomes.pdf)]
 ```
 
 ---
 
-## 🔧 Troubleshooting
+## 📱 Mobile Optimization
 
-### Site isn't showing up
-- Wait 2-3 minutes after enabling Pages
-- Check Settings → Pages shows "Your site is live at..."
-- Ensure repository is **Public** not Private
+**This template is designed for program directors viewing on phones** - the most common use case for fellowship/residency applications.
 
-### Images not loading
-- File names are case-sensitive
-- Check file path matches exactly
-- Use forward slashes `/` not backslashes `\`
-
-### Changes not appearing
-- Clear your browser cache (Ctrl+Shift+R / Cmd+Shift+R)
-- Wait ~1 minute for GitHub Pages to rebuild
-- Check your commit went through
+- ✅ Responsive layout adapts to any screen size
+- ✅ Touch-friendly navigation buttons  
+- ✅ Optimized font sizes for mobile reading
+- ✅ Fast loading on cellular connections
 
 ---
 
 ## 📚 Markdown Quick Reference
 
+**You don't need to know coding** - Markdown is simple text formatting:
 ```markdown
-# Heading 1
-## Heading 2
-### Heading 3
+# Large Heading
+## Medium Heading  
+### Small Heading
 
 **Bold text**
 *Italic text*
 
-[Link text](URL)
-
 - Bullet point
 - Another point
 
-1. Numbered list
-2. Second item
+[Link text](https://example.com)
 ```
 
-**For more:** [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+**[Full Markdown Guide](https://www.markdownguide.org/basic-syntax/)**
+
+---
+
+## 🔧 Troubleshooting
+
+### "My site isn't showing up"
+- Wait 2-3 minutes after enabling Pages
+- Ensure repository is **Public** (not Private)
+- Check Settings → Pages shows green checkmark
+
+### "My changes aren't appearing"
+- Wait ~1 minute for GitHub to rebuild your site
+- Hard refresh: `Ctrl+Shift+R` (Windows) or `Cmd+Shift+R` (Mac)
+- Check you clicked "Commit changes" after editing
+
+### "Images aren't loading"
+- File names are case-sensitive: `Photo.png` ≠ `photo.png`
+- Check file path matches exactly
+- Use forward slashes: `/` not backslashes `\`
+
+### "I see someone else's information"
+- You're viewing the **template** - create your own copy with "Use this template"
+- Make sure you're editing **your** repository, not the template
 
 ---
 
 ## 💡 Pro Tips
 
-1. **Keep it updated** - Set a monthly reminder to update your CV
-2. **Add PDF versions** - Many programs want downloadable CVs
-3. **Link from LinkedIn** - Put your CV website in your LinkedIn profile
-4. **Include in email signature** - Share your professional site easily
-5. **Mobile-first** - Program directors often view on phones
+1. **Update regularly** - Set a calendar reminder to update your CV quarterly
+2. **Link everywhere** - Add your site URL to:
+   - Email signature
+   - LinkedIn profile
+   - ERAS application  
+   - Conference name badges
+3. **Download PDFs** - Many programs want downloadable CVs (we auto-generate these)
+4. **Custom domain** (advanced) - Buy `yourname.com` and point it to your GitHub Pages site
+5. **Track visitors** (optional) - Add Google Analytics to see who's viewing your CV
 
 ---
 
-## 🆘 Need Help?
+## 📊 Example Sites Using This Template
 
-- 📖 **[Full Documentation](https://github.com/anthonyomorada/anthony-morada-cv)** - See working example
-- 💬 **[GitHub Discussions](https://github.com/anthonyomorada/am-medical-cv-template/discussions)** - Ask questions
-- 🐛 **[Report Issues](https://github.com/anthonyomorada/am-medical-cv-template/issues)** - Found a bug?
+Want to see it in action? Here are real academic medicine portfolios built with this template:
+
+- **[Anthony Morada, MD](https://anthonyomorada.github.io/anthony-morada-cv/)** - General Surgery Resident, Transplant Surgery Research
+
+*Using this template? [Submit your site](https://github.com/anthonyomorada/am-medical-cv-template/discussions) to be featured!*
 
 ---
 
-## 🌟 Examples in the Wild
+## 🆘 Get Help
 
-Using this template? [Submit your site](https://github.com/anthonyomorada/am-medical-cv-template/discussions) to be featured!
+- 💬 **[Ask Questions](https://github.com/anthonyomorada/am-medical-cv-template/discussions)** - Community support forum
+- 🐛 **[Report Issues](https://github.com/anthonyomorada/am-medical-cv-template/issues)** - Found a bug? Let us know
+- 📖 **[Full Documentation](https://anthonyomorada.github.io/anthony-morada-cv/)** - See working example with all features
 
-- [Anthony Morada, MD](https://anthonyomorada.github.io/anthony-morada-cv/) - General Surgery Resident
+---
+
+## 🌟 Why This Template?
+
+Created by a medical resident who understands what program directors want:
+
+- **Clean, scannable design** - PDs spend 30 seconds per application
+- **Mobile-first** - Most PDs review applications on phones between cases
+- **Professional credibility** - Custom domain looks better than a Word doc attachment
+- **Easy maintenance** - Update once, live everywhere (no re-uploading PDFs)
+- **Cost: $0** - Free hosting, no subscriptions, no catches
 
 ---
 
 ## 📜 License
 
-Free to use under [MIT License](LICENSE). No attribution required (but appreciated!).
+**Free to use** under [MIT License](LICENSE). No attribution required (but appreciated!).
+
+You can:
+- ✅ Use for personal or commercial purposes
+- ✅ Modify and customize freely  
+- ✅ Share with colleagues
+- ✅ Remove all references to this template
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 Credits
 
-Created by [Anthony Onde Morada, MD](https://github.com/anthonyomorada) for medical professionals seeking simple, professional online presence.
+**Created by [Anthony Onde Morada, MD](https://github.com/anthonyomorada)**  
+*PGY-4 General Surgery Resident | Transplant Surgery Research*
 
-**Based on:**
-- GitHub Pages + Jekyll
-- Minima theme
-- Markdown formatting
+Built for medical professionals who want a simple, professional online presence without learning web development.
+
+**Technology:**
+- [GitHub Pages](https://pages.github.com/) - Free hosting
+- [Jekyll](https://jekyllrb.com/) - Static site generator  
+- [Minima Theme](https://github.com/jekyll/minima) - Clean design
+- Markdown - Simple text formatting
 
 ---
 
-**Ready to get started?** Click the **"Use this template"** button at the top! ⬆️
+## ⭐ Support This Project
+
+If this template helped you:
+- ⭐ **Star this repository** to help others find it
+- 🔗 **Share with colleagues** applying for fellowships/jobs
+- 💬 **[Share feedback](https://github.com/anthonyomorada/am-medical-cv-template/discussions)** on how we can improve
+
+---
+
+**Ready to build your portfolio?** Click **[Use this template](https://github.com/anthonyomorada/am-medical-cv-template/generate)** to get started! 🚀
+```
+
+---
+
+## 2️⃣ **Repository Description** (GitHub Settings)
+```
+Professional CV website template for medical residents, fellows, and faculty. Deploy your academic portfolio in 5 minutes with GitHub Pages. No coding required - edit with Markdown only.
+```
+
+---
+
+## 3️⃣ **Repository Topics** (GitHub Settings → About)
+```
+medical-cv
+academic-medicine
+github-pages
+jekyll-template
+residency-application
+fellowship-application
+medical-portfolio
+academic-cv
+markdown-cv
+medical-education
+cv-template
+portfolio-template
+physician-cv
+medical-resident
